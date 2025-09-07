@@ -1,0 +1,24 @@
+.Main-header{
+  padding-top: 2.5vh;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+.Uptop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 40px;
+}
+
+.Uptop a{
+  color:aliceblue;
+  text-decoration: none;
+  font-size: 2.5em;
+  letter-spacing: 0.6vw;
+  transition: color 0.2s;
+}
+
+.Uptop a:hover {
+  color: #eee;
+}

@@ -1,0 +1,73 @@
+body {
+  background: #222;
+  font-family: Arial, sans-serif;
+  color:aliceblue;
+  width: 100%;
+  letter-spacing: 0.5vw;
+}
+
+.Header{
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  padding-right: 6vw;
+}
+
+.Header-text{
+  text-align: right;
+}
+
+.Header-name{
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom: 2vh;
+}
+
+.Header-info{
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 2vh;
+}
+
+.Header-button{
+  display: inline-block;
+  align-items: center;
+  font-size: 1em;
+  color: #222;
+  background: aliceblue;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+  margin-top: 0.2em;
+  padding: 1vh;
+}
+
+.About{
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  padding-left: 6vw;
+}
+
+.About-text{
+  text-align: left;
+}
+
+.About-header{
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom: 2vh;
+}
+
+.About-info{
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 2vh;
+  padding-right: 40vw;
+  letter-spacing: 0.3vw;
+  line-height: 2.3vh;
+}

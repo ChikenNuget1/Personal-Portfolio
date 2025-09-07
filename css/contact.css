@@ -1,0 +1,28 @@
+.Contact-section{
+  text-align: center;
+  padding-top: 10vh;
+  height: 40vh;
+}
+
+.Contact-section h2{
+  font-size: 3em;
+  margin-bottom: 5vh;
+}
+
+.Contact-links{
+  display: flex;
+  justify-content: center;
+  gap: 9vw;
+}
+
+.Contact-links a{
+  color: aliceblue;
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.Contact-links a:hover{
+  color: #7dd3fc;
+}
+
