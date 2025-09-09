@@ -1,0 +1,41 @@
+.Header{
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  padding-right: 4vw;
+}
+
+.Header-text{
+  text-align: left;
+}
+
+.Header-name{
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom: 2vh;
+}
+
+.About{
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  padding-left: 4vw;
+}
+
+.About-text{
+  text-align: left;
+}
+
+.About-header{
+  font-size: 4em;
+  margin-bottom: 3vh;
+}
+
+.About-text p{
+    letter-spacing: 3px;
+    font-size: 1.5em;
+    line-height: 1.8;
+    width: 40vw;
+}
